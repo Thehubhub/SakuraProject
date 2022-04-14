@@ -6,7 +6,7 @@ Project Ideas:
 The project consists of one main Activity and 5 fragments. First fragment is the Home Fragment, where the title of the app is displayed and 3 different
 buttons. First button is "Show list"; the second fragment contains RecyclerView of all card items wil be shown after the button click, with several 
 different fields about the each card and its own image. Second button is "Search card"; the third fragment that let user input a card name and search 
-for the card's details, which is displayed on the fourt fragment. Third button is "Flip it"; once button is clicked, it will show the front of a Sakura 
+for the card's details, which is displayed on the fourth fragment. Third button is "Flip it"; once button is clicked, it will show the front of a Sakura 
 Card and allows user to click on the card itself to flip to the back of the card.
 
 What's working and what's not:
