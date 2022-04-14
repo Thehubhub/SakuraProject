@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_fragment"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.sakuraproject.views.HomeFragment"
+        android:label="Home of Sakura Cards"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/cardListFragment"
+        android:name="com.example.sakuraproject.views.CardListFragment"
+        android:label="Sakura Card Collection"
+        tools:layout="@layout/fragment_card_list" />
+    <fragment
+        android:id="@+id/cardLookUpFragment"
+        android:name="com.example.sakuraproject.views.LookUpCardFragment"
+        android:label="Want to find a specific card?"
+        tools:layout="@layout/fragment_look_up_card" />
+    <fragment
+        android:id="@+id/cardLookUpResultFragment"
+        android:name="com.example.sakuraproject.views.LookUpResultFragment"
+        android:label="Result of Your Search"
+        tools:layout="@layout/fragment_look_up_result" />
+    <fragment
+        android:id="@+id/cardFlipFragment"
+        android:name="com.example.sakuraproject.views.CardFlipFragment"
+        android:label="Go ahead, CLICK.THE.CARD"
+        tools:layout="@layout/card_flip_front" />
+
+
+</navigation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cardList"
+        android:title="The List"
+        android:icon="@drawable/fragment_list"/>
+    <item
+        android:id="@+id/cardLookUp"
+        android:title="Search Card"
+        android:icon="@drawable/fragment_search" />
+    <item
+        android:id="@+id/cardFlip"
+        android:title="Flip It!"
+        android:icon="@drawable/fragment_flip"/>
+</menu>
